@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: noto serif;
+}
+
+.display {
+    display: flex;
+}
+
+.display_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grandfather {
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    position: relative;
+}
+
+.first_nav {
+    width: 100vw;
+    height: 7vh;
+}
+.first_nav_partone {
+    width: 45vw;
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+}
+.first_nav_parttwo {
+    width: 65vw;
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+.partone_items {
+    margin: 0.8vw;
+    font-size: 0.9vw
+}
+.first_item {
+        height: 10vh;
+        width: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.first_nav_parttwo {
+    font-size: 0.9vw;
+}
+.community{
+    height: 10vh;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.current{
+    height: 10vh;
+    width: 7.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+
+}
+
+.two_first {
+    justify-content: center;
+    align-items: center;
+    margin-left: 15vw;
+    width: 10vw;
+    height: 7vh;
+
+}
+
+.parttwo_items {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parttwo_items:hover {
+    background-color: #fcb900;
+}
+
+.two_second {
+
+    width: 10vw;
+    height: 7vh;
+
+}
+
+.two_third {
+
+    width: 10vw;
+    height: 7vh;
+
+}
+
+.two_fourth {
+    margin-right: 2vw;
+    width: 7vw;
+    height: 7vh;
+
+}
+
+.second_nav {
+    width: 100vw;
+    height: 14vh;
+    background-color: rgba(224, 29, 29, 0.845);
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+
+
+}
+
+.emergency {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    height: 5vh;
+    font-weight: 300;
+
+}
+
+.emergency:hover  {
+
+    font-weight: lighter;
+
+}
+
+.second_nav_parts:hover {
+
+    font-weight: 800;
+color: #fff;
+transition: all 0.2s ease-in-out 0.01s;
+
+
+}
+
+
+
+.nav2_one {
+    width: 12vw;
+    height: 14vh;
+    font-size: 0.8vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.9;
+
+}
+
+.nav2_two {
+    margin-left: 3vw;
+    font-weight: 550;
+    border: transparent 1px solid blue;
+
+
+
+
+
+}
+
+.nav2_three {
+    margin-left: 2vw;
+    font-weight: 550;
+    border: transparent 1px solid blue;
+
+
+
+}
+
+.nav2_four {
+    margin-left: 2vw;
+    font-weight: 550;
+    border: transparent 1px solid blue;
+
+
+}
+.faculty_drop{
+    width: 25vw;
+    
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 9.5vh;
+    left: 16vw;
+    display: none;
+ 
+    }
+.faculty_items{
+display: flex;
+align-items: center;
+    width: 25vw;
+    height: 8vh;
+   
+    
+}
+.faculty_items span{
+    color: rgb(88, 88, 88);
+    margin-left: 4vw;
+}
+.faculty_items span:hover{
+    color: black;
+    font-weight: bolder;
+    transition-behavior: normal;
+    transition-duration: 0s;
+    transition-timing-function: ease-in;
+    transition-delay: 0ms;
+    cursor: pointer;
+}
+.item_active {
+    display: block;
+    transition: 0.7s;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.01, 0.13);
+}
+.faculty_drop .arrow {
+    background-color:#fff;
+    width: 1.7vw;
+    height: 3.5vh;
+    position: absolute;
+    transform: rotate(45.9deg);
+    top: -1.8vh;
+    left: 3vw
+}
+.faculty{
+    height: 10vh;
+    width: 6.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alumni{
+    height: 10vh;
+    width: 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alumni_drop{
+    width: 25vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 9.5vh;
+    left: 26vw;
+    display: none;
+}
+.alumni_drop .arrow {
+    background-color:#fff;
+    width: 1.7vw;
+    height: 3.5vh;
+    position: absolute;
+    transform: rotate(45.9deg);
+    top: -1.8vh;
+    left: 3vw
+}
+.alumni_items span:hover{
+
+    color: black;
+    font-weight: bolder;
+    transition-behavior: normal;
+    transition-duration: 0s;
+    transition-timing-function: ease-in;
+    transition-delay: 0ms;
+    cursor: pointer;
+
+}
+.alumni_items span{
+    color: rgb(88, 88, 88);
+    margin-left: 4vw;
+}
+.alumni_items{
+    display: flex;
+    align-items: center;
+        width: 25vw;
+        height: 8vh;
+    
+}
+.alumni_active {
+    display: block;
+    transition-behavior: normal;
+    transition-duration: 10s;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.01, 0.13);
+    transition-delay: 3ms;
+ 
+}  
+
